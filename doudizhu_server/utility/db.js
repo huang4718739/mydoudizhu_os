@@ -1,3 +1,4 @@
+//连接数据库
 const mysql = require('mysql');
 let client = undefined;
 const query = function (sql, cb) {
